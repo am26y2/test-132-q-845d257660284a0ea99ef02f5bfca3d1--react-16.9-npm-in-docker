@@ -105,12 +105,15 @@ function App() {
               3
             </button>
             <button id="add" onClick={() => handleclick("+")}>
-              -
+              +
             </button>
           </div>
           <div className="row">
             <button id="0" onClick={() => handleclick(0)}>
               0
+            </button>
+            <button id="dot" onClick={() => handleclick(".")}>
+              .
             </button>
             <button id="percentile" onClick={() => handleclick("%")}>
               %
