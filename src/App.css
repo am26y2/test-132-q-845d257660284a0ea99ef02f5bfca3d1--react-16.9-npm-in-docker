@@ -31,3 +31,30 @@
     transform: rotate(360deg);
   }
 }
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 270px;
+  border: 2px soild gray;
+  align-items: center;
+}
+.display {
+  height: 10%;
+  border: 2px solid black;
+  width: 270px;
+  text-align: right;
+}
+button {
+  height: 50px;
+  width: 60px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
