@@ -12,7 +12,7 @@ function App() {
     let result;
     try {
       result = evaluate(expression);
-      setExpression(result);
+      setExpression(result.toString());
     } catch (err) {
       setExpression("Invalid Exprssion!");
     }
